@@ -1,0 +1,182 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-bar{
+    justify-content:space-between;
+    display: flex;
+    background-color:transparent;
+    font-family: montserant;
+    font-size: 1.5em;
+    padding: 20px;
+    
+
+}
+.nav-item a{
+    margin-left: 40px;
+    position: relative;
+    color:white;
+    text-decoration: none;
+}
+.nav-item a:hover{
+    text-decoration:none;
+     transition: .1s;
+     color: #ff9a7c;
+    font-size:xx-large;    
+}
+.header{
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 90%;
+    position: relative;
+    text-decoration: none;
+
+}
+.login{
+    margin-left: 40px;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 1rem;
+}
+ button.login:hover{
+    font-size:x-large; 
+    transition: .5s;
+    background-color:#fff;
+    color:black;
+}
+
+.logo{
+    color: white;
+    font-size: 2.5em;
+}
+.image{
+    width: 100%;
+}
+body{
+    display: flex;
+   background-image: url('background-image.jpeg');
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+}
+h2{
+    margin-bottom: none;
+    font-size: 1.5em;
+    color:aliceblue;
+    text-align: center;
+}
+.input-detail{
+   position: relative;
+   margin: 30px 0;
+   width: 310px;
+   border-bottom: 2px solid white;
+}
+.input-detail label{
+    position:absolute;
+    top: 50%;
+    left: 5px;
+    transform: translatey(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+}
+
+
+.input-detail input{
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:40px 0 0;
+    color: white;
+}
+.input-detail ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 50px;
+}
+.forgot{
+    margin: -15px 0 15px;
+    justify-content: center;
+    color: #fff;
+    display: flex;
+}
+.forgot label input{
+    margin-right: 3px;
+}
+.forgot label a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.forgot label a:hover{
+    text-decoration: underline;
+    font-size:large;
+     transition: .1s;
+}
+button{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+button:hover{
+    background-color: #3385ff;
+    
+}
+.register{
+    font-size: .9em;
+    color: #fff;
+    margin: 25px  0 30px;
+    text-align: center;
+}
+.register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.register a{
+    margin-left: 10px;
+    
+}
+.register p a:hover{
+     text-decoration: underline;
+     font-size:large;
+     transition: .1s;
+}
